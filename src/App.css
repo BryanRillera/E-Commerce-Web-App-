@@ -1,0 +1,285 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .cardHighlight {
+    min-height: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(img/petbili.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Single Days', sans-serif !important;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    text-decoration: none;
+  }
+
+  .table-black-border {
+    border: 4px solid dimgray !important;
+  }
+
+  .table-black-border tbody tr {
+    transition: transform 0.1s;
+  }
+
+  .table-black-border tbody tr:hover {
+    cursor: pointer;
+    transform: translateY(-1px);
+  }
+
+  #Highlights .card {
+    text-align: left;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+
+  #Highlights .card:hover {
+    transform: translateY(-10px);
+  }
+
+
+  .card-green {
+    border-color: black !important;
+    background-color: rgba(0, 128, 0, 0.8) !important;
+  }
+
+  .card-white {
+    border-color: black !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+  }
+
+  .card-blue {
+    border-color: black !important;
+    background-color: rgba(0, 0, 255, 0.8) !important;
+  }
+
+  .card {
+    text-align: left;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+  }
+
+  .card-img {
+    margin: 20px;
+  }
+
+  #productcard {
+    text-align: left;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+
+  #productcard:hover {
+    transform: translateY(-10px);
+  }
+
+  .btn {
+    display: inline-block !important;
+    background: #262424 !important;
+    padding: 8px 30px !important;
+    margin: 5px 0 !important;
+    border-radius: 35px !important;
+    font-size: 20px !important;
+    font-size: 1.5em;
+    text-decoration: none !important;
+    transition: background 0.5s !important;
+    font-family: 'Bungee Spice', sans-serif !important;
+  }
+
+  .btn:hover {
+    background: #563434 !important;
+    font-family: 'Bungee Spice', sans-serif !important;
+  }
+
+  .navbar-custom {
+    font-family: 'Single Day', sans-serif !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link,
+  .navbar-custom .nav-dropdown,
+  .navbar-custom .nav-dropdown-item {
+    font-family: 'Single Day', sans-serif !important;
+    font-size: 26px !important;
+  }
+
+  .profile-row {
+    border-radius: 5px;
+    border: 5px solid white;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .update-row {
+    border-radius: 5px;
+    border: 5px solid white;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .reset-row {
+    border-radius: 5px;
+    border: 5px solid white;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+
+  .banner {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 2em;
+    font-size: 80px;
+    font-family: 'Single Day', sans-serif !important;
+  }
+
+  .breed-title {
+    font-size: 30px;
+    font-family: 'Bungee Spice', sans-serif !important;
+  }
+
+  .breed-details {
+    font-size: 30px;
+    font-family: 'Bungee Spice', sans-serif !important;
+  }
+
+  .description-details {
+    font-size: 25px;
+    font-family: 'Single Day', sans-serif !important;
+  }
+
+  .content {
+    font-size: 1.2em;
+    font-size: 50px;
+    font-family: 'Bungee Spice', sans-serif !important;
+  }
+
+  #Highlights {
+    font-family: 'Bungee Spice', sans-serif !important;
+  }
+
+  .product-results {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto; 
+    text-align: center;
+  }
+
+  #footer {
+    font-size: 30px;
+    font-family: 'Single Day', sans-serif !important;
+  }
+
+  #loginfont {
+    font-size: 55px;
+    font-family: 'Single Day', sans-serif !important;
+  }
+
+  #registerfont {
+    font-size: 50px;
+    font-family: 'Single Day', sans-serif !important;
+  }
+
+  @media (max-width: 767px) {
+
+    .btn {
+      padding: 8px 15px !important;
+      font-size: 16px !important;
+    }
+
+    .navbar-custom {
+      margin: 20px !important;
+    }
+
+    .banner {
+      padding: 10px !important;
+    }
+
+    .title {
+      font-size: 100px !important;
+    }
+
+    .content {
+      font-size: 27px !important;
+    }
+
+    .breed-title {
+      font-size: 20px;
+    }
+
+    .breed-details {
+      font-size: 18px;
+    }
+
+    .description-details {
+      font-size: 18px;
+    }
+
+    .profile-row {
+      margin: 5px !important;
+      margin-bottom: 50px !important;
+    }
+
+    .update-row {
+      margin: 10px !important;
+      margin-bottom: 30px !important;
+    }
+
+    .reset-row {
+      margin: 10px !important;
+    }
+
+    .product-results {
+      margin: 0;
+      text-align: center;
+    }
+
+    .card-img {
+      margin: 0;
+    }
+
+    #productcard {
+      margin: 0 !important;
+      margin-bottom: 50px !important;
+    }
+
+    #footer {
+       font-size: 18px !important; 
+     }
+
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
